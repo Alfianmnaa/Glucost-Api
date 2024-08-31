@@ -1,0 +1,45 @@
+plan router
+
+{group}/route
+
+1. Auth
+auth/registrasi
+auth/login
+auth/refetch
+auth/logout
+
+2. User
+user/get/:id -> getone
+user/getall -> getall
+user/update/:id 
+user/delete/:id -> delete
+
+3. Jenis Kategori
+jenis/create -> create
+jenis/get/:id -> getone
+jenis/getall -> getall
+jenis/update/:id -> update
+jenis/delete/:id -> delete
+
+4. Produk
+produk/create -> create
+produk/get/:id -> getone
+produk/getall?kategori=makanan&jenis=snack -> getall
+produk/update/:id -> update
+produk/delete/:id -> delete
+
+5. Lacak Gula
+lacak/create -> create
+lacak/get/:id -> getone
+lacak/getall -> getall
+lacak/update/:id -> update
+lacak/delete/:id -> delete
+
+6. Riwayat 
+riwayat/create -> create
+riwayat/get/:id -> getone
+riwayat/getall -> getall
+riwayat/update/:id -> update
+riwayat/delete/:id -> delete
+
+
