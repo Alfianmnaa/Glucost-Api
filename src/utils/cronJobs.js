@@ -23,7 +23,7 @@ const Lacak = require("../models/lacakGula");
 const Riwayat = require("../models/riwayat");
 
 // Menjalankan tugas setiap hari pada jam 08:30 pagi
-cron.schedule("05 20 * * *", async () => {
+cron.schedule("00 00 * * *", async () => {
   try {
     const lacakGulaData = await Lacak.find({});
 

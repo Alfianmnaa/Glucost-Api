@@ -59,7 +59,7 @@ exports.getAllProduk = async (req, res) => {
 // with pagination
 exports.getSemuaProduk = async (req, res) => {
   try {
-    const { search, kategori, rentang, urutkan, page = 1, limit = 6 } = req.query;
+    const { search, kategori, rentang, urutkan, page = 1, limit = 30 } = req.query;
 
     const query = {};
     const sort = {};
