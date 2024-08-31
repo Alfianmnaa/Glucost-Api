@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 const corsOption = {
-  origin: ["http://localhost:5173", "http://localhost:3000", "http://localhost:4000"],
+  origin: ["http://localhost:5173", "http://localhost:3000", "http://localhost:4000", "https://glucostdashboard.netlify.app/"],
   credentials: true,
 };
 
